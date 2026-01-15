@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+    color: #222;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #4f46e5;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero span {
+    color: #ffd700;
+}
+
+.hero p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #fff;
+    color: #4f46e5;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Sections */
+.section {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Projects */
+.dark {
+    background: #111827;
+    color: #fff;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    background: #1f2933;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: #4f46e5;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    margin-top: 40px;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+    text-align: center;
+
+}
+
+.skills ul li {
+    display: inline-block;
+    background-color: blue;
+    color: yellow;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    text-align: center;
+
+}
+
+.skills ul li:hover {
+    background-color: #ced4da;
+    color: #000;
+    cursor: pointer;
+}
+
+.about {
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+
+}
+
+.contact ul li {
+    margin-bottom: 8px;
+    color: black;
+}
+
+.contact ul li:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.contact {
+    margin-top: 30px;
+}
